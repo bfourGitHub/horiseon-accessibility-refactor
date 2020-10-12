@@ -9,6 +9,7 @@ body {
 }
 
 header {
+    /* Set: font family, font color to #ffffff, background color to #2a607c, and padding 20px on all sides */
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,15 +17,18 @@ header {
     }
 
 header h1 {
+    /* Set font size to 48 px in header and display style */
     display: inline-block;
     font-size: 48px;
 } 
 
 header h1 .seo {
+    /* Applies special color: d9dcd6 to only 'seo' in 'Horiseon' header name */
     color: #d9dcd6;
 }
 
 nav {
+    /* Set: top padding, right margin, float, font family and font size for nav bar*/
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,6 +38,7 @@ nav {
 }
 
 header nav a {
+    /* Sets nav bar links. Link color, left margin and display type */
     display: inline-block;
     margin-left: 25px;
     color: #ffffff;
@@ -42,6 +47,7 @@ header nav a {
 }
 
 .hero {
+    /* Applies settings to background image */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -51,22 +57,26 @@ header nav a {
 }
 
 .float-left {
+    /* Class selector floats images within content- article. Sets right margin */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /* Class selector floats images within content- article. Sets left margin */
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /* Sets the display styles for the content section*/
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 aside {
+    /* Sets the display styles for the aside section */
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -78,22 +88,26 @@ aside {
 }
 
 aside div {
+    /* Sets text color and bottom margin for all divs in the aside section */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 aside div h3 {
+    /* Sets heading alignment and margin for all divs in the aside section*/
     margin-bottom: 10px;
     text-align: center;
 }
 
 aside img {
+    /* Sets aside-image display settings, margin and max width */
     display: block;
     margin: 10px auto;
     max-width: 150px; 
 }
 
 article {
+    /* Sets the display styles for the article section */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -103,15 +117,18 @@ article {
 }
 
 article img {
+    /* Sets the max height of images in article section */
     max-height: 200px;
 }
 
 article h2 {
+    /*Sets heading bottom margin and font size */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 footer {
+    /* Sets padding, font family and text alignment for the footer*/
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -119,5 +136,6 @@ footer {
 }
 
 footer h2 {
+    /* Sets font size to 20 px in footer */
     font-size: 20px;
 }
